@@ -4,13 +4,10 @@
     src: url(Fonts/Memphis-River/Memphis\ River.otf);
 }
 @font-face{
-    font-family: "evaline-demo";
-    src: url(Fonts/evaline-demo.ttf);
-}
-@font-face{
     font-family: "casual-regular";
     src: url(Fonts/Casual-Regular.ttf);
 }
+
 :root{
     --yellow:#f9ca24;
 }
@@ -201,11 +198,122 @@ section{
     color:var(--yellow);
 }
 
+.Education .box-container{
+    margin-top: 20px;
+    margin-bottom: 80px;
+    flex-flow: column;
+    display: flex;
+   align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+    padding-left: 3rem;
+}
+.Education .box-container .box{
+    width: 27rem;
+    margin: 2rem 1rem;
+    padding-left: 4rem;
+    border-left: .2rem solid #fff;
+    position:relative;
+}
+.Education .box-container .box span{
+    padding: .7rem .5rem;
+    font-weight: 700;
+    background: red;
+    color: white;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    border-radius: 6rem;
+}
+.Education .box-container .box h3{
+    font-size: 2rem;
+    color: #fff;
+    padding-top:1.5rem ;
+}
+.Education .box-container .box p{
+    font-size: 1.4rem;
+    color: #fff;
+    padding-top:1rem ;
+}
+.Education .box-container .box i{
+    position: absolute;
+    top: -10px;
+    left: -20px;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    line-height: 5rem;
+    text-align: center;
+    font-size: 2rem;
+    color: black;
+    background-color: var(--yellow);
+}
+.skills .skills_container{
+    margin-top: 30px;
+    color: #eee;
+}
+.skills i{
+    position: relative;
+    font-size: 3rem;
+    margin-right: 2rem;
+    color: skyblue;
+}
+.skills_container{
+    row-gap: 8rem;
+    text-align: center;
+}
+.skills_text{
+    margin-top: 1.5rem;
+}
+.skills_data{
+    display: flex;
+    height: 4rem;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    font-size: 2rem;
+    font-weight: 900;
+    padding: .5rem 1rem;
+    margin-bottom: 20px;
+    border-radius: 1rem;
+    width: 50rem;
+    box-shadow: 0 1px 8px var(--yellow);
+}
 
-
-
-
-
+.skill_name{
+    display: flex;
+    align-items: center;
+}
+/* .headSkill{
+    font-family: "casual-regular",sans-serif; 
+    color: rgb(5, 88, 136);
+    font-size: 3rem;
+   margin-left: 2rem;
+   margin-top: 2rem ;
+   margin-bottom: 2rem;
+} */
+.Skill_bar{
+    position: absolute;
+    left: 2px;
+    bottom: 0;
+    background-color: white;
+    height: .25rem;
+    border-radius: .5rem;
+    z-index: 1000;
+}
+.skill_HTML{
+    width: 95%;
+}
+.skill_css{
+    width: 88%;
+}.skill_javas{
+    width: 45%;
+}.skill_java{
+    width: 60%;
+}.skill_python{
+    width: 40%;
+}
 
 
 /* media query */
