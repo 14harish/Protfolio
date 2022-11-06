@@ -1,4 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap');
+@font-face{
+    font-family: "MemphisRiver";
+    src: url(Fonts/Memphis-River/Memphis\ River.otf);
+}
+@font-face{
+    font-family: "evaline-demo";
+    src: url(Fonts/evaline-demo.ttf);
+}
+@font-face{
+    font-family: "casual-regular";
+    src: url(Fonts/Casual-Regular.ttf);
+}
 :root{
     --yellow:#f9ca24;
 }
@@ -37,14 +49,17 @@ body{
 }
 
 header .user .name{
-    font-size: 3.5rem;
-    color:#fff;
-}
-
-header .user .post{
-    font-size: 2rem;
-    color:#eee;
-} 
+    font-size: 4.5rem;
+    font-weight: 200;
+    font-family: "MemphisRiver",sans-serif;
+    color: #f9ca24;
+    border-radius: 20px;
+}       
+/* header .user .post{
+    font-family: "casual-regular",sans-serif;
+    font-size: 1.5rem;
+    color:rgb(1, 217, 255);
+}  */
 header .user img{
     height:12rem;
     width:12rem;
@@ -63,6 +78,7 @@ header .navbar ul{
 
 header .navbar ul li a{
     display: block;
+    font-family: "casual-regular",sans-serif;   
     padding:1rem;
     margin:1rem 0;
     background:#333;
@@ -71,6 +87,9 @@ header .navbar ul li a{
     border-radius: 5rem;
 }
 header .navbar ul li a:hover{
+    font-style: italic;
+    font-family: "casual-regular",sans-serif;
+    color: black;
     background:var(--yellow);
 }
 header{
@@ -110,11 +129,15 @@ header{
 .Home h1 {
     font-size: 5rem;
     color: #fff;
+    font-family: "casual-regular",sans-serif; 
+}
+.Home h1 span{
+    font-family: "casual-regular",sans-serif;
 }
 .Home p {
     font-size: 1.5rem;
     color: #fff;
-    padding: 1rem 0;
+    padding: 0.4rem 0;
 }
 section{
     min-height: 100vh;
@@ -122,9 +145,9 @@ section{
 }
 .btn{
     padding: .7rem .5rem;
-    font-weight: 400;
-    background: #333;
-    color: #fff;
+    font-weight: 4800;
+    background: red;
+    color: white;
     cursor: pointer;
     margin-top: 1rem;
     font-size: 1.2rem;
@@ -135,6 +158,7 @@ section{
     font-size: 1.2rem;
 }
 .btn:hover{
+    color: black;
     background: var(--yellow);
 }
 .About .row{
@@ -166,14 +190,21 @@ section{
     text-align: center;
     margin:0 6rem;
     font-size: 4rem;
+    font-family: "casual-regular",sans-serif; 
     padding:1rem;
     border-bottom: .1rem solid #fff4;
     color:#fff;
 }
 
 .heading span{
+    font-family: "casual-regular",sans-serif; 
     color:var(--yellow);
 }
+
+
+
+
+
 
 
 
