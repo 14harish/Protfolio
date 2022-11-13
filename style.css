@@ -49,7 +49,7 @@ header .user .name{
     font-size: 4.5rem;
     font-weight: 200;
     font-family: "MemphisRiver",sans-serif;
-    color: #f9ca24;
+    color: var(--yellow);
     border-radius: 20px;
 }       
 /* header .user .post{
@@ -86,7 +86,7 @@ header .navbar ul li a{
 header .navbar ul li a:hover{
     font-style: italic;
     font-family: "casual-regular",sans-serif;
-    color: black;
+    color: rgb(0, 0, 0);
     background:var(--yellow);
 }
 header{
@@ -102,17 +102,7 @@ header{
     flex-flow: column;
     text-align: center;
 } 
-#menu{
-    position: fixed;
-    top: 2rem; right: 2rem;
-    background:#333;
-    color: #fff;
-    cursor: pointer;
-    font-size: 2.5rem;
-    padding: 1rem 1.5rem;
-    z-index: 1000;
-    display: none;
-}
+
 /* Home Starts */
 .Home{
     display: flex;
@@ -143,12 +133,12 @@ section{
 }
 .btn{
     padding: .7rem .5rem;
-    font-weight: 4800;
+    font-weight: 480;
     background: red;
     color: white;
     cursor: pointer;
     margin-top: 1rem;
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     border-radius: 6rem;
 }
 .btn i{
@@ -221,12 +211,12 @@ section{
 }
 .Education .box-container .box span{
     padding: .7rem .5rem;
-    font-weight: 700;
+    font-weight: 500;
     background: red;
     color: white;
     cursor: pointer;
     margin-top: 1rem;
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     border-radius: 6rem;
 }
 .Education .box-container .box h3{
@@ -379,6 +369,66 @@ section{
 }
 .box-btn i{
     padding-left: 10px;
+}
+/* style switch toggle */
+.style-switcher {
+    position: fixed;
+    right: 1rem;
+    padding: 15px;
+    top:10px;
+    width: 150px;
+    height: 80px;
+    /* border: 1px solid var(--yellow); */
+    background: black;
+    color: #fff;
+    z-index: 101;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    transform: translateX(100%);
+}
+.style-switcher.open{
+    transform: translateX(-25px);
+}
+.style-switcher .s-icon{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    font-size: 20px;
+    background:black;
+    color: white;
+    right: 100%;
+    /* border: 1px solid white; */
+    margin-right: 2px;
+    transition: all 0.3s ease;
+}
+.style-switcher h4{
+    margin: 0 0 10px;
+    color: #eee;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.style-switcher .colors{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.style-switcher .colors span{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    border: 1px solid red;
+    border-radius: 50%;
+}
+.style-switcher .color-1{
+    background-color: #37b182;
+}
+.style-switcher .color-2{
+    background-color: #fa5b0f;
+}
+.style-switcher .color-3{
+    background-color: #f021b2;
 }
 /* media query */
 /* @media(max-width:1200px){
