@@ -160,6 +160,7 @@ section{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    margin-top: 5rem;
     padding:1rem 0;
 }
 
@@ -250,7 +251,7 @@ section{
 }
 /* skills section starts */
 .skills .skills_container{
-    margin-left:30rem;
+    margin-left:10rem;
     margin-top: 10rem;
     color: #eee;
 }
