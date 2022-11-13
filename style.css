@@ -44,7 +44,7 @@ body{
     overflow-x: hidden;
     padding-left: 26rem;
 }
-
+/* Navbar */
 header .user .name{
     font-size: 4.5rem;
     font-weight: 200;
@@ -113,6 +113,7 @@ header{
     z-index: 1000;
     display: none;
 }
+/* Home Starts */
 .Home{
     display: flex;
     justify-content: center;
@@ -158,6 +159,7 @@ section{
     color: black;
     background: var(--yellow);
 }
+/* About Page Starts */
 .About .row{
     display: flex;
     align-items: center;
@@ -197,6 +199,7 @@ section{
     font-family: "casual-regular",sans-serif; 
     color:var(--yellow);
 }
+/* .Education part :start */
 
 .Education .box-container{
     margin-top: 100px;
@@ -249,6 +252,7 @@ section{
     color: black;
     background-color: var(--yellow);
 }
+/* skills section starts */
 .skills .skills_container{
     margin-left:30rem;
     margin-top: 10rem;
@@ -315,8 +319,67 @@ section{
 }.skill_python{
     width: 40%;
 }
-
-
+/* contact section Starts */
+.contact .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10rem;
+    flex-wrap: wrap;
+}
+.contact .row .content{
+    flex:1 1 30rem;
+    padding: 4rem;
+    padding-bottom: 0;
+}
+.contact .row form{
+    flex:1 1 45rem;
+    padding: 2rem;
+    margin: 2rem;
+    margin-bottom: 4rem;
+}
+.contact .row form .box{
+    padding: 1.5rem;
+    margin: 1rem 0;
+    background: #333;
+    color: #fff;
+    text-transform: none;
+    font-size: 1.7rem;
+    width: 100%;
+}
+.contact .row form .message{
+    height: 15rem;
+    resize: none;
+}
+.contact .row .content .title{
+    text-decoration: uppercase;
+    color: white;
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+.contact .row .content .info h3{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    color: #eee;
+    padding: 1rem 0;
+    font-weight: normal;
+}
+.contact .row .content .info h3 i{
+    color: var(--yellow);
+    padding-right: 1rem;
+}
+.box-btn{
+    margin-top: 10px;
+    padding: 1rem;
+    font-size: 2rem;
+    background: #333;
+    color: #fff;
+    border-radius: 10px;
+}
+.box-btn i{
+    padding-left: 10px;
+}
 /* media query */
 /* @media(max-width:1200px){
     html{
