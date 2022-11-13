@@ -10,6 +10,9 @@
 
 :root{
     --yellow:#f9ca24;
+    --red:#ec1839;
+    --white:#eee;
+    --black:black;
 }
 *{
     font-family: 'Roboto', sans-serif;
@@ -40,7 +43,7 @@ html::-webkit-scrollbar-thumb{
     background: var(--yellow);
 }
 body{
-    background: black;
+    background: var(--black);
     overflow-x: hidden;
     padding-left: 26rem;
 }
@@ -86,7 +89,7 @@ header .navbar ul li a{
 header .navbar ul li a:hover{
     font-style: italic;
     font-family: "casual-regular",sans-serif;
-    color: rgb(0, 0, 0);
+    color:var(--black);
     background:var(--yellow);
 }
 header{
@@ -134,8 +137,10 @@ section{
 .btn{
     padding: .7rem .5rem;
     font-weight: 480;
-    background: red;
-    color: white;
+    background: var(--red);
+    color: var(--white);
+    /* background: red; */
+    /* color: white; */
     cursor: pointer;
     margin-top: 1rem;
     font-size: 1.8rem;
@@ -146,7 +151,7 @@ section{
     font-size: 1.2rem;
 }
 .btn:hover{
-    color: black;
+    color: var(--black);
     background: var(--yellow);
 }
 /* About Page Starts */
@@ -212,8 +217,8 @@ section{
 .Education .box-container .box span{
     padding: .7rem .5rem;
     font-weight: 500;
-    background: red;
-    color: white;
+    background: var(--red);
+    color: var(--white);
     cursor: pointer;
     margin-top: 1rem;
     font-size: 1.8rem;
@@ -239,7 +244,8 @@ section{
     line-height: 5rem;
     text-align: center;
     font-size: 2rem;
-    color: black;
+    /* color: black; */
+    color: var(--black);
     background-color: var(--yellow);
 }
 /* skills section starts */
@@ -252,7 +258,7 @@ section{
     position: relative;
     font-size: 3rem;
     margin-right: 2rem;
-    color: skyblue;
+    color: var(--yellow);
 }
 .skills_container{
     row-gap: 8rem;

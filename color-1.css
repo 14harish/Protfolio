@@ -1,4 +1,7 @@
 
 :root{
-    --yellow:#37b182;
+    --yellow:#00ffff;
+    --red:rgb(204, 255, 0);
+    --white:black;
+    --black:rgb(0, 0, 0);
 }
