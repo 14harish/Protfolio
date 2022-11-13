@@ -199,8 +199,8 @@ section{
 }
 
 .Education .box-container{
-    margin-top: 20px;
-    margin-bottom: 80px;
+    margin-top: 100px;
+    margin-bottom: 150px;
     flex-flow: column;
     display: flex;
    align-items: center;
@@ -250,7 +250,8 @@ section{
     background-color: var(--yellow);
 }
 .skills .skills_container{
-    margin-top: 30px;
+    margin-left:30rem;
+    margin-top: 10rem;
     color: #eee;
 }
 .skills i{
@@ -317,7 +318,7 @@ section{
 
 
 /* media query */
-@media(max-width:1200px){
+/* @media(max-width:1200px){
     html{
         font-size: 55%;
     }
@@ -349,4 +350,4 @@ html{
     header{
         width: 100vw;
     }
-}
+} */
