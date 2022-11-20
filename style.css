@@ -272,8 +272,8 @@ section{
 
 /* skills section starts */
 .skills .skills_container{
-    margin-left:10rem;
-    margin-top: 10rem;
+    margin-left:10rem; 
+    margin-top: 10rem; 
     color: #eee;
 }
 .skills i{
@@ -482,43 +482,41 @@ section{
        top: -120%; 
     }
     #menu{
+        top:8rem;
+        right: 2rem;
         display: block;
     }
     header.toggle{
         top: 0;
     }
     body{
-        padding: 50px;
+        padding: 4rem 25rem;
+    }
+    .skill .skills_container{
+        justify-content: center;
+
     }
  }
- @media (max-width:350px){
+ @media (max-width:410px){
     header{
        width: 100vw; 
+    }
+    body{
+        padding: 10rem;
     }
     .skills .skills_container{
         position: relative;
         justify-content: center;
         align-items: center;
-        margin: 20px 100px 10px 20px;
-    }
-    .skills_data{
-        width:30rem;
+        margin: 0px 100px 0px 0px;
+        padding-right: 10rem;
+        padding-left: 0;
     }
     .heading{
         margin: 0 3rem;
     }
  }
- @media (max-width:390px){
-    /* .skills .skills_container{
-        position: relative;
-        justify-content: center;
-        align-items: center;
-        margin: 20px 100px 10px 20px;
-    } */
-    .skills_data{
-        width: 10rem;
-        }
- }
+
  @media (max-width:540px){
     header{
         width: 100vw;
@@ -531,6 +529,9 @@ section{
     }
     .skills_data{
         width:40rem;
+    }
+    body{
+        padding: 0 5rem;
     }
  }
  @media (max-width:768px){
