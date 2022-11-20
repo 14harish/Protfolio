@@ -491,12 +491,46 @@ section{
         padding: 50px;
     }
  }
- @media (max-width:400px){
+ @media (max-width:350px){
     header{
        width: 100vw; 
     }
+    .skills .skills_container{
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 100px 10px 20px;
+    }
+    .skills_data{
+        width:30rem;
+    }
     .heading{
         margin: 0 3rem;
+    }
+ }
+ @media (max-width:390px){
+    /* .skills .skills_container{
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 100px 10px 20px;
+    } */
+    .skills_data{
+        width: 10rem;
+        }
+ }
+ @media (max-width:540px){
+    header{
+        width: 100vw;
+    }
+    .skills .skills_container{
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 0px 10px 20px;
+    }
+    .skills_data{
+        width:40rem;
     }
  }
  @media (max-width:768px){
