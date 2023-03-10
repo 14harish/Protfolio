@@ -273,6 +273,8 @@ section{
 /* skills section starts */
 .skills .skills_container{
     margin-top: 5rem;
+    display: flex;
+    flex-flow: column;
     margin-left: 5rem;
     color: #eee;
 }
@@ -283,7 +285,7 @@ section{
     color: var(--yellow);
 }
 .skills_container{
-    row-gap: 8rem;
+    /* row-gap: 8rem; */
     text-align: center;
 }
 .skills_text{
@@ -299,6 +301,7 @@ section{
     font-weight: 900;
     padding: .5rem 1rem;
     margin-bottom: 20px;
+    margin-left: 5rem;
     border-radius: 1rem;
     width: 50rem;
     max-width: 100%;
@@ -465,6 +468,17 @@ section{
 }
 .style-switcher .color-3{
     background-color: #f490d6;
+}
+
+
+/* Project Section */
+.project .MainBoxProject{
+    border: 2px solid white;
+    width: 60%;
+    height: 60%;
+    margin-top: 10%;
+    margin-left: 20%;
+    background-color: lightgreen;
 }
 
 
