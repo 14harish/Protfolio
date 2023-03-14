@@ -499,7 +499,14 @@ section{
     background-color: #222;
 }
 .projectCont h1{
-    font-size: 20px;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    /* border:2px solid black */
+}
+.projectCont .description{
+    font-size: 16px;
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: center;
@@ -519,6 +526,10 @@ section{
 }
 .project3{
     background-color: #2bff00;
+    /* display: none; */
+}
+.project4{
+    background-color: pink;
     /* display: none; */
 }
 .btnP{
