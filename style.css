@@ -498,9 +498,20 @@ section{
     border: 2px solid black;
     background-color: #222;
 }
+.projectCont h1{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    /* border:2px solid black */
+}
 .project1{
     background-color: #00ffff;
     /* display: none; */
+}
+.projectCont img{
+    margin-left: 40px;
+    border-radius: 20px 20px 20px 20px ;
 }
 .project2{
     background-color: red;
