@@ -480,18 +480,19 @@ section{
      top:55%;
      left: 50%;
     transform: translate(-50%,-50%);
-    border: 2px solid white;
+    /* border: 2px solid white; */
     width: 50%;
     height: 70%;
-    background-color: rgb(166, 177, 178);
+    /* background-color: rgb(166, 177, 178); */
 }
 .projectCont{
     /* display: flex; */
     position: relative;
     display:ruby-base-container;
     /* flex-flow: row; */
+    border-radius: 20px 20px 20px 20px;
     top:50%;
-    left:50%;
+    left:51%;
     transform: translate(-50%,-50%);
     height: 98%;
     width: 80%;
@@ -505,52 +506,57 @@ section{
     text-align: center;
     /* border:2px solid black */
 }
-.projectCont .description{
-    font-size: 16px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+.projectCont .description p{
+    font-size: 20px;
+    margin: 30px;
     text-align: center;
     /* border:2px solid black */
 }
+.projectCont .description h2{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 20px;
+}
 .project1{
-    background-color: #00ffff;
-    /* display: none; */
+    background: var(--yellow);
 }
 .projectCont img{
-    margin-left: 40px;
+    width: 81%;
+    height: 41%;
+    margin-left: 10%;
     border-radius: 20px 20px 20px 20px ;
 }
 .project2{
-    background-color: red;
-    /* display: none; */
+    background: var(--yellow);
 }
 .project3{
-    background-color: #2bff00;
-    /* display: none; */
+    background: var(--yellow);
 }
 .project4{
-    background-color: pink;
-    /* display: none; */
+    background: var(--yellow);
 }
 .btnP{
     position: absolute;
-    /* left: 500px; */
-    width: 50px;
-    height: 50px;
+    width: 10%;
+    height: 10%;
 }
 .b1{
-    /* left: 50%; */
-    top: 50%;
-    left: 2%;
+    top: 45%;
+    /* left: 0.1%; */
+    background:var(--red);
+    color:var(--white);
+    border-radius: 200px 0px 0px 0px;  
 }
 .b2{
-    top: 50%;
-    left: 92%;
+    top: 45%;
+    left: 91.9%;
+    background:var(--red);
+    color:var(--white);
+    border-radius: 0px 200px 0px 0px;  
 }
 .com{
     display: none
 }
-
 /* media query */
  @media(max-width:1200px){
     html{
