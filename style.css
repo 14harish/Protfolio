@@ -273,6 +273,7 @@ section{
 /* skills section starts */
 .skills .skills_container{
     margin-top: 5rem;
+    margin-left: 5rem;
     display: flex;
     flex-flow: column;
     margin-left: 5rem;
