@@ -272,8 +272,10 @@ section{
 
 /* skills section starts */
 .skills .skills_container{
-    margin-top: 5rem;
-    margin-left: 5rem;
+    position: absolute;
+    left: 35%;
+    margin-top: 10%;
+    /* margin-left: 5rem; */
     display: flex;
     flex-flow: column;
     margin-left: 5rem;
@@ -285,10 +287,7 @@ section{
     margin-right: 2rem;
     color: var(--yellow);
 }
-.skills_container{
-    /* row-gap: 8rem; */
-    text-align: center;
-}
+
 .skills_text{
     margin-top: 1.5rem;
 }
@@ -498,7 +497,7 @@ section{
     height: 98%;
     width: 80%;
     background-color: #222;
-    box-shadow: 5px 5px 10px 10px var(--yellow);
+    /* box-shadow: 5px 5px 10px 10px var(--yellow); */
 }
 .projectCont h1{
     font-family: "casual-regular",sans-serif;   
@@ -506,16 +505,16 @@ section{
     margin-top: 70px;
     margin-bottom: 20px;
     text-align: center;
-    /* border:2px solid black */
 }
 .projectCont .description p{
-    font-size: 20px;
-    margin: 30px;
+    font-size: 15px;
+    margin: 20px;
     text-align: center;
     /* border:2px solid black */
 }
 .projectCont .description h2{
-    margin-top: 50px;
+    /* margin-top: 50px; */
+    margin: 5px;
     text-align: center;
     font-size: 20px;
 }
@@ -568,7 +567,7 @@ section{
 }
 .b2{
     top: 50%;
-    left: 93%;
+    left: 92%;
     background:var(--red);
     color:var(--white);
     border-radius: 20px 200px 20px 20px;  
@@ -584,9 +583,13 @@ section{
     .home{
         padding: 10rem;
     }
+    .skill .skills_container{
+        /* justify-content: center; */
+        left:10%;
+    }
     
  }
- @media (max-width:991px){
+ @media (max-width:900px){
     header{
        top: -120%; 
     }
@@ -603,8 +606,46 @@ section{
     }
     .skill .skills_container{
         justify-content: center;
-
+        left: 10%;
     }
+    .MainBoxProject{
+        position: absolute;
+        top:45%;
+        left: 50%;
+       width:150%;
+       height: 0%;
+   }
+   .projectCont{
+       position: relative;
+       top:50%;
+       left:51%;
+       height: 98%;
+       width: 80%;
+   }
+   .projectCont img{
+    width: 85%;
+    height: 20%;
+    margin-left: 10%;
+}
+.projectCont h1{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.projectCont .description p{
+    font-size: 15px;
+    margin: 20px;
+}
+.projectCont .description h2{
+    margin: 5px;
+    text-align: center;
+    font-size: 15px;
+}
+.projectCont .description h2 span{
+    font-size: 16px;
+}
+.b2{
+    left:92%;
+}
  }
  @media (max-width:410px){
     header{
@@ -617,6 +658,7 @@ section{
         position: relative;
         justify-content: center;
         align-items: center;
+        left:1%;
         margin: 0px 0px 0px 0px;
         /* padding-right: 10rem; */
         padding-left: 0;
@@ -624,18 +666,58 @@ section{
     .heading{
         margin: 0 3rem;
     }
+    .MainBoxProject{
+        position: absolute;
+        top:45%;
+        left: 50%;
+       width:150%;
+       height: 70%;
+   }
+     .projectCont{
+       position: relative;
+       top:50%;
+       left:51%;
+       height: 98%;
+       width: 80%;
+   }
+   .projectCont img{
+    width: 85%;
+    height: 20%;
+    margin-left: 10%;
+}
+.projectCont h1{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.projectCont .description p{
+    font-size: 15px;
+    margin: 20px;
+}
+.projectCont .description h2{
+    margin: 5px;
+    text-align: center;
+    font-size: 15px;
+}
+.projectCont .description h2 span{
+    font-size: 16px;
+}
+.b2{
+    left:92%;
+}
  }
 
- @media (max-width:540px){
+ @media (max-width:1024){
     header{
         width: 100vw;
     }
     body{
         padding: 0 5rem;
     }
+    
  }
- @media (max-width:768px){
+ @media (max-width:780px){
    html{
     font-size: 50%;
    }
+   
  }

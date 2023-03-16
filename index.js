@@ -20,19 +20,19 @@ $(document).ready(function(){
   
     // smooth scrolling 
   
-    $('a[href*="#"]').on('click',function(e){
+    // // $('a[href*="#"]').on('click',function(e){
   
-      e.preventDefault();
+    // //   e.preventDefault();
   
-      $('html, body').animate({
+    // //   $('html, body').animate({
   
-        scrollTop : $($(this).attr('href')).offset().top,
+    // //     scrollTop : $($(this).attr('href')).offset().top,
   
-      },
-        500, 
-        'linear'
-      );
+    // //   },
+    // //     500, 
+    // //     'linear'
+    // //   );
   
-    });
+    // });
   
   });
