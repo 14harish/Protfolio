@@ -339,8 +339,10 @@ section{
     width: 70%;
 }.skill_java{
     width: 80%;
-}.skill_python{
-    width: 40%;
+}.skill_react{
+    width: 50%;
+}.skill_express{
+    width: 60%;
 }
 
 
@@ -472,109 +474,62 @@ section{
 
 
 /* Project Section */
-.project{
-    position: relative;
-}
-.MainBoxProject{
-     position: absolute;
-     top:55%;
-     left: 50%;
-    transform: translate(-50%,-50%);
-    /* border: 2px solid white; */
-    width: 50%;
-    height: 70%;
-    /* background-color: rgb(166, 177, 178); */
-}
-.projectCont{
-    /* display: flex; */
-    position: relative;
-    display:ruby-base-container;
-    /* flex-flow: row; */
-    border-radius: 20px 20px 20px 20px;
-    top:50%;
-    left:51%;
-    transform: translate(-50%,-50%);
-    height: 98%;
+/* .project{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+} */
+.container-project{
+    color: #eee;
+    margin: 50px auto;
     width: 80%;
-    background-color: #222;
-    /* box-shadow: 5px 5px 10px 10px var(--yellow); */
+    height: 80%;
+    background: rgb(0, 0, 0);
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type:x mandatory;
 }
-.projectCont h1{
-    font-family: "casual-regular",sans-serif;   
-    font-size: 25px;
-    margin-top: 70px;
-    margin-bottom: 20px;
+.container-project div{
+    min-width: 100%;
+}
+.container-project h1{
+    background: linear-gradient(var(--red),var(--yellow));
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    font-size: 4rem;
+    margin-left: 25%;
+    padding-top:2% ;
+    font-family: "casual-regular",sans-serif; 
+}
+.container-project .pro1 img{
+    border-radius: 20px;
+    margin-left: 21%;
+    width: 60%;
+}
+.container-project .pro1 p{
+    padding: 3%;
+    font-size: 2rem;
     text-align: center;
+    font-family: 'Times New Roman', Times, serif;
 }
-.projectCont .description p{
-    font-size: 15px;
-    margin: 20px;
+.container-project .pro1 .tech{
+    font-size: 5rem;
     text-align: center;
-    /* border:2px solid black */
+    color: var(--yellow);
 }
-.projectCont .description h2{
-    /* margin-top: 50px; */
-    margin: 5px;
-    text-align: center;
-    font-size: 20px;
+.container-project .pro1 .te{
+    font-size: 2rem;
 }
-.projectCont .description h2 span{
-    font-size: 25px;
-    font-family: "casual-regular",sans-serif;   
+.container-project::-webkit-scrollbar{
+    width: 1.2rem;
 }
-.project1{
+.container-project::-webkit-scrollbar-track{
+    background: #222;
+}
+.container-project::-webkit-scrollbar-thumb{
     background: var(--yellow);
 }
-.projectCont img{
-    width: 81%;
-    height: 41%;
-    margin-left: 10%;
-    border-radius: 20px 20px 20px 20px ;
-}
-.project2{
-    background: var(--yellow);
-}
-.project3{
-    background: var(--yellow);
-}
-.project4{
-    background: var(--yellow);
-}
-.btnP{
-    position: absolute;
-    width: 10%;
-    height: 10%;
-}
-.b2:hover{
-    width: 11%;
-    box-shadow: 20px 20px 20px 20px var(red);
-}
-.b1:hover{
-    height: 11%;
-}
-.b1{
-    top: 50%;
-    /* left: 0.1%; */
-    background:var(--red);
-    color:var(--white);
-    border-radius: 200px 20px 20px 20px;  
-}
-.b1 i{
-    font-size: 20px;
-}
-.b2 i{
-    font-size: 20px;
-}
-.b2{
-    top: 50%;
-    left: 92%;
-    background:var(--red);
-    color:var(--white);
-    border-radius: 20px 200px 20px 20px;  
-}
-.com{
-    display: none
-}
+
 /* media query */
  @media(max-width:1200px){
     html{
@@ -615,37 +570,7 @@ section{
        width:150%;
        height: 0%;
    }
-   .projectCont{
-       position: relative;
-       top:50%;
-       left:51%;
-       height: 98%;
-       width: 80%;
-   }
-   .projectCont img{
-    width: 85%;
-    height: 20%;
-    margin-left: 10%;
-}
-.projectCont h1{
-    font-size: 20px;
-    margin-bottom: 20px;
-}
-.projectCont .description p{
-    font-size: 15px;
-    margin: 20px;
-}
-.projectCont .description h2{
-    margin: 5px;
-    text-align: center;
-    font-size: 15px;
-}
-.projectCont .description h2 span{
-    font-size: 16px;
-}
-.b2{
-    left:92%;
-}
+  
  }
  @media (max-width:410px){
     header{
@@ -666,44 +591,7 @@ section{
     .heading{
         margin: 0 3rem;
     }
-    .MainBoxProject{
-        position: absolute;
-        top:45%;
-        left: 50%;
-       width:150%;
-       height: 70%;
-   }
-     .projectCont{
-       position: relative;
-       top:50%;
-       left:51%;
-       height: 98%;
-       width: 80%;
-   }
-   .projectCont img{
-    width: 85%;
-    height: 20%;
-    margin-left: 10%;
-}
-.projectCont h1{
-    font-size: 20px;
-    margin-bottom: 20px;
-}
-.projectCont .description p{
-    font-size: 15px;
-    margin: 20px;
-}
-.projectCont .description h2{
-    margin: 5px;
-    text-align: center;
-    font-size: 15px;
-}
-.projectCont .description h2 span{
-    font-size: 16px;
-}
-.b2{
-    left:92%;
-}
+    
  }
 
  @media (max-width:1024){
