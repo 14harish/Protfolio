@@ -584,7 +584,7 @@ section{
         margin: 0;
         padding-right: 10rem;
         border: 2px solid var(--yellow);
-        padding: 0 10rem 10rem 8rem;
+        padding: 0 10rem 10rem 0rem;
     }
     
     .heading{
@@ -595,6 +595,13 @@ section{
         height: 100vh;
         margin: auto;
         padding: 0;
+        margin-left:20%;
+    }
+    .About{
+        margin-left: 20%;
+    }
+    .Education{
+        margin-left: 20%;
     }
 
     section{
@@ -613,31 +620,39 @@ section{
         width: 100vh;
         padding: 0;
     }
+    .skills{
+        margin-left: 20%;
+    }
     .skills .skills_container{
         left: 0;
         margin: 0;
-        margin-left: 1rem;
+        margin-right: 21rem;
+        /* margin-left: 1rem; */
         margin-top: 4rem;
     }
     .skills_data{
         width:40rem;
         margin-top: 5rem;
-        margin-left: 4rem;
+        margin-left: 5rem;
+    }
+    .contact{
+        margin-left: 20%;
     }
     .contact .row form{
         margin: 0;
         width: 50vh;
     }
-    .project{
-        margin: 0;
-        padding: 0rem;
+    .heading{
+        margin-left: 20%;
     }
     .container-project{
-        left: 0;
-        margin: 0;
+        /* margin-left: 20%; */
+        /* border: 2px solid var(--yellow); */
+        /* margin: 0; */
         padding: 1rem;
         margin-top:4rem ;
-        width:40rem;
+        margin-left: 3rem;
+        width:45rem;
         height: 70rem;
     }
     .container-project h1{
